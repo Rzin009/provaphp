@@ -46,13 +46,16 @@ if ($id >= 0) {
         </div>
         <div>
             <label for="descricao">Descrição</label>
-            <input type="text" 
+            <br>
+            <textarea 
+            type="text"
             name="descricao" 
             id="descricao" 
             placeholder="Descrição do produto"
-            
             value="<?=$registro['descricao']?? '' ?>">
+            </textarea>
         </div>
+        
         <div>
             <label for="preco">Preço</label>
             <input type="text" 
